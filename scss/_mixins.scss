@@ -1,0 +1,6 @@
+@mixin flex-props($justify: space-between, $aling: center, $wrap: nowrap,) {
+    display: flex;
+    justify-content: $justify ;
+    align-items: $aling ;
+    flex-wrap: $wrap;
+}
